@@ -7,42 +7,44 @@ export const Soffer = () => {
     return (
         <>
             <div className="s-offer">
-                <Swiper
-                    loop={false}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false
-                    }}
-                    modules={[Autoplay, EffectCoverflow]}
-                    spaceBetween={0}
-                    effect='coverflow'
-                    slidesPerView={1}
-                >
-                    <SwiperSlide>
-                        <img src="/Images/s-offer1.jpg" alt="#" />
-                        <div className="sec-1">
-                            <h3>Portable, versatile, everyday convenience</h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/Images/s-offer2.jpg" alt="#" />
-                        <div className="sec-1">
-                            <h3>Circular finger adornment symbolizes commitment</h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/Images/s-offer3.jpg" alt="#" />
-                        <div className="sec-1">
-                            <h3>Footwear, style, comfort</h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/Images/s-offer4.webp" alt="#" />
-                        <div className="sec-1">
-                            <h3>Lip color and beauty</h3>
-                        </div>
-                    </SwiperSlide>
-                </Swiper>
+                <div className="swiper">
+                    <Swiper
+                        loop={false}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false
+                        }}
+                        modules={[Autoplay, EffectCoverflow]}
+                        spaceBetween={0}
+                        effect='coverflow'
+                        slidesPerView={1}
+                    >
+                        <SwiperSlide>
+                            <img src="/Images/s-offer1.jpg" alt="#" />
+                            <div className="sec-1">
+                                <h3>Portable, versatile, everyday convenience</h3>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="/Images/s-offer2.jpg" alt="#" />
+                            <div className="sec-1">
+                                <h3>Circular finger adornment symbolizes commitment</h3>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="/Images/s-offer3.jpg" alt="#" />
+                            <div className="sec-1">
+                                <h3>Footwear, style, comfort</h3>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="/Images/s-offer4.webp" alt="#" />
+                            <div className="sec-1">
+                                <h3>Lip color and beauty</h3>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
                 <div className="container my-5">
                     <div className="text-center">
                         <h2><span className='text-danger'>Special</span> Offer</h2>
@@ -151,7 +153,7 @@ export const Soffer = () => {
                         <div className="col-md-3 my-5 card">
                             <img src="/Images/chair.jpg" alt="" />
                             <div className="f-detail">
-                                <h3>Outdoor Camping Chair</h3>
+                                <h3>Camping Chair</h3>
                                 <i><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></i><br />
                                 <span>$28.00</span><br />
                                 <button className='cart-btn'>Add to cart</button>

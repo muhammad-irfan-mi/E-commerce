@@ -90,6 +90,7 @@
     background-color: var(--body);
     text-align: start;
     top: 4.1rem;
+    z-index: 99;
 }
 .nav-bar ul ul li:hover{
     background-color: #ced0d2;
@@ -106,19 +107,24 @@
 
 .nav-bar ul li:hover ul {
     display: block;
+
 }
 nav div{
     align-items: center;
 }
 nav i{
     font-size: 25px;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 nav i a{
     color: var(--secondary);
 }
 nav i a:hover{
     color: var(--primary);
+}
+.h-icon{
+    display: flex;
+    align-items: center;
 }
 /* -------------Nav 2 End------------- */
 
@@ -300,9 +306,13 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--primary);
 }
+.ceta-detail h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--secondary);
+}
 .ceta-detail ul li{
     list-style: none;
-    padding: 5px 3px;
+    padding: 4px;
     margin-left: -39px;
     width: 282px;
 }
@@ -366,7 +376,7 @@ h2{
 }
 .s-offer img{
     width: 100%;
-    height: 81vh;
+    height: 85vh;
     background: linear-gradient(to left, rgba(110, 108, 108, 0.2) 15%, rgb(54, 47, 47));
 }
 
@@ -376,7 +386,7 @@ h2{
 }
 .s-offer .card{
     transition: all .5s ease-in-out;
-
+    min-height: 420px;
     width: 23%;
     padding: 0px 0px;
     margin: 0px 10px;
@@ -414,8 +424,6 @@ h2{
 .login{
     width: 350px;
     height: 550px;
-    /* background-color: #43464921; */
-    /* background-color: var(--body); */
     background-color: rgba(255, 255, 255, 0.397);
     position: absolute;
     top: 8rem;
@@ -442,6 +450,11 @@ h2{
     width: 100%;
     margin: 3px 0px;
     border-bottom: 1px solid gray;
+    transition: all .3s ease-in-out;
+}
+.login input:hover{
+    background-color: var(--body);
+    transition: all .3s ease-in-out;
 }
 .f-password{
     text-align: end;

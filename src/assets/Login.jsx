@@ -1,17 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaGoogle } from 'react-icons/fa'
 import { BsTwitter } from 'react-icons/bs'
 
 
 const Login = () => {
-    const [Username, setUsername] = useState('');
-    const [ Userpass, setUserpass] = useState('')
-    const [ UsernameErr, setUsernameErr] = useState(false)
-    const [ UserpassErr, setUserpassErr] = useState(false)
-    const userhandler = () => {
-        n
-    }
+    
     return (
         <>
             <div className="login-page">
@@ -20,11 +14,11 @@ const Login = () => {
                         <h3>Login</h3>
                         <div className="uname">
                             <label htmlFor="u-nm">Username</label><br />
-                            <input type="text" id="u-nm" placeholder='Enter Username' onChange={userhandler}/>
+                            <input type="text" id="u-nm" placeholder='Enter Username' />
                         </div>
                         <div className="uname">
                             <label htmlFor="u-pass">Username</label><br />
-                            <input type="text" id="u-pass" placeholder='Enter Password' onChange={passwordhandler}/>
+                            <input type="text" id="u-pass" placeholder='Enter Password'/>
                         </div>
                         <div className="f-password">
                             <span>Forgot Password?</span>

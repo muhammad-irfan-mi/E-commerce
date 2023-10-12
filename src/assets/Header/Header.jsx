@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <>
             <nav className='nav-bar'>
-                <a href="/"><img src="/Images/elogo.png" alt="" className='elogo'/></a>
+                <a href="/"><img src="/Images/elogo.png" alt="" className='elogo' /></a>
                 <ul className='d-flex pt-3'>
                     <li><a href="/">Home</a></li>
                     <li><a href="/cetagory">Product Catagory <IoMdArrowDropdown /></a>
@@ -26,9 +26,8 @@ export const Header = () => {
                     <li><a href="/soffer">Special Offer</a></li>
                     <li><a href="/">Contact</a></li>
                 </ul>
-                <div className="d-flex">
-
-                    <i><a href="/soffer"><AiOutlineSearch /></a></i>
+                <div className="h-icon">
+                    {/* <i><a href="/login" ><AiOutlineSearch /></a></i> */}
                     <i><a href="/login"><IoIosContact /></a></i>
                     <i><a href="/soffer"><BsCart3 /></a></i>
                 </div>
