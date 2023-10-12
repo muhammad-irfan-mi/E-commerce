@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: indianred;
+    --secondary: rgba(15, 10, 29, 0.849);
+    --third: #2f3640;
+    --hover: rgb(201, 125, 125);
+    --body: #f5f5f5;
+}
+
+.f-content h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--secondary);
+}
+
+.f-content p {
+    font-size: 17px;
+}
+
+.f-detail h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: var(--secondary);
+}
+
+/* ---------Nav 1---------- */
+.reg-log {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.reg-log span {
+    color: var(--primary);
+    margin: 0px 8px;
+}
+
+.reg-log span:hover {
+    color: var(--hover);
+    cursor: pointer;
+}
+
+/* -------------Nav 2 Start------------- */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.elogo{
+    width: 120px;
+    height: 90px;
+}
+.nav-bar h4 a{
+    color: var(--secondary);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.nav-bar h4 {
+    color: var(--secondary);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 0px 12px;
+    padding: 10px;
+}
+
+.nav-bar ul li a:hover {
+    color: rgb(171, 44, 44);
+}
+
+.nav-bar ul ul {
+    padding: 0px 0px;
+    display: none;
+    position: absolute;
+    border-radius: 12px 12px 0px 0px;
+    border-top: 8px solid var(--primary);
+    background-color: var(--body);
+    text-align: start;
+    top: 4.1rem;
+}
+.nav-bar ul ul li:hover{
+    background-color: #ced0d2;
+}
+
+.p-cata {
+    position: absolute;
+}
+
+.nav-bar ul ul li {
+    padding: 12px 2px;
+    border-bottom: 1px solid rgb(221, 218, 212);
+}
+
+.nav-bar ul li:hover ul {
+    display: block;
+}
+nav div{
+    align-items: center;
+}
+nav i{
+    font-size: 25px;
+    margin: 0px 15px;
+}
+nav i a{
+    color: var(--secondary);
+}
+nav i a:hover{
+    color: var(--primary);
+}
+/* -------------Nav 2 End------------- */
+
+/* -------------Section 1 Start in Home------------- */
+
+#section-1 {
+    height: 87vh;
+    width: 100%;
+    background: linear-gradient(to left, rgba(102, 97, 97, 0.2) 15%, rgb(0, 0, 0)), url('/Images/main-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.sec-1 {
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 24rem;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec-1 button {
+    border: none;
+    padding: 4px 17px;
+    font-size: 21px;
+    border-radius: 8px;
+    margin: 12px 0px;
+    position: absolute;
+    top: 3rem;
+    right: 18rem;
+}
+
+.sec-1 button:hover {
+    background-color: rgba(255, 255, 255, 0.714);
+    color: rgba(0, 0, 0, 0.833);
+}
+
+/* Section 2 Home Feature */
+
+
+.feature img {
+    width: 90%;
+    height: 220px;
+}
+
+.feature img {
+    transition: .6s ease-in-out;
+}
+
+.feature .col-lg-3:hover img,
+.col-lg-3:hover .f-detail h3 {
+    transition: .5s ease-in-out;
+    transform: scale(.9);
+    color: var(--primary);
+}
+
+.feature h3 {
+    margin: 17px 0px 0px 0px;
+}
+
+.feature i {
+    font-size: 25px;
+    color: goldenrod;
+}
+
+.feature span {
+    font-size: 19px;
+}
+
+.cart-btn {
+    padding: 3px 20px;
+    font-size: 17px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 13px;
+}
+
+.tren {
+    width: 60%;
+}
+
+.trend img {
+    width: 100%;
+    height: 330px;
+}
+
+/* Toys Section  */
+
+/* Wooden Toys */
+.toy {
+    background-color: var(--body);
+}
+
+.toy-top-img {
+    width: 315px;
+    height: 230px;
+}
+
+.toy-top-img-big img {
+    width: 100%;
+    height: 100%;
+}
+
+.w-toy-cart .col-md-4 img {
+    width: 93%;
+    height: 250px;
+}
+
+.w-toy-cart .col-md-4 img, .f-detail h3 {
+    transition: .6s ease-in-out;
+}
+
+.w-toy-cart .col-md-4:hover img, .w-toy-cart .col-md-4:hover .f-detail h3 {
+    transition: .5s ease-in-out;
+    transform: scale(.9);
+    color: var(--primary);
+}
+
+.f-detail h3 {
+    margin: 37px 0px 0px 0px;
+}
+
+.f-detail i {
+    font-size: 25px;
+    color: goldenrod;
+}
+
+.f-detail span {
+    font-size: 19px;
+}
+
+.cart-btn {
+    padding: 3px 20px;
+    font-size: 17px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 13px;
+}
+
+/* Plastic toy Section  */
+
+.toy h1{
+    color: var(--secondary);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.toy p{
+    font-size: 17px;
+}
+.ptoy-content{
+    background-color: white;
+    border-radius: 15px;
+}
+h2{
+    color: var(--primary);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Cetagory Section  */
+
+.main-ceta{
+    background-color: var(--body);
+}
+.main-ceta .ceta-detail{
+    background-color: white;
+}
+.ceta-detail{
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+.ceta-detail h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--primary);
+}
+.ceta-detail ul li{
+    list-style: none;
+    padding: 5px 3px;
+    margin-left: -39px;
+    width: 282px;
+}
+.ceta-detail li a{
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 19px;
+}
+.ceta-detail ul li:nth-child(odd){
+    background-color: var(--body);
+}
+.ceta-detail ul li:hover{
+    background-color: #ced0d2;
+}
+.ceta-img{
+    margin-left: 1.5rem;
+    padding: 0px;
+}
+.ceta-img img{
+    width: 100%;
+    border-radius: 12px;
+    height: 540px;
+}
+.garment .card{
+    margin-left: 1.5rem;
+    padding: 0px;
+    min-height: 400px;
+    transition: all .7s ease-in-out;
+}
+.garment .card img{
+    height: 200px;
+}
+.garment .card .f-detail{
+    margin: 0px 7px;
+}
+.garment .card:hover{
+    transition: all .7s ease-in-out;
+    transform: scale(.9);
+}
+.beauty .card{
+    margin-left: 1.5rem;
+    padding: 0px;
+    min-height: 400px;
+    transition: all .7s ease-in-out;
+}
+.beauty .card img{
+    height: 180px;
+}
+.beauty .card .f-detail{
+    margin: 0px 7px;
+}
+.beauty .card:hover{
+    transition: all .7s ease-in-out;
+    transform: scale(.9);
+}
+
+/* Special Offer Section  */
+
+.s-offer{
+    background-color: var(--body);
+}
+.s-offer img{
+    width: 100%;
+    height: 81vh;
+    background: linear-gradient(to left, rgba(110, 108, 108, 0.2) 15%, rgb(54, 47, 47));
+}
+
+.s-offer .container img{
+    width: 100%;
+    height: 230px;
+}
+.s-offer .card{
+    transition: all .5s ease-in-out;
+
+    width: 23%;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    height: 58vh;
+}
+.s-offer .card .f-detail{
+    padding: 0px 12px;
+}
+.s-offer .card:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(.9);
+}
+.s-offer .card::before{
+    content: '20% Off';
+    width: 133px;
+    padding: 2px 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.947);
+    color: var(--secondary);
+    position: absolute;
+    transform: rotate(-30deg);
+    top: -27px;
+    left: -17px;
+}
+
+.login-page .container-fluid{
+    background-color: var(--body);
+    background-image: url('/Images/login-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+.login{
+    width: 350px;
+    height: 550px;
+    /* background-color: #43464921; */
+    /* background-color: var(--body); */
+    background-color: rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 8rem;
+    left: 31rem;
+    border-radius: 10px;
+    padding: 0rem 3rem;
+    padding-bottom: 1.8rem;
+}
+.login h3{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+.login label{
+    font-size: 17px;
+    margin: 14px 0px 5px 0px;
+}
+.login input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 4px 12px;
+    width: 100%;
+    margin: 3px 0px;
+    border-bottom: 1px solid gray;
+}
+.f-password{
+    text-align: end;
+    margin-bottom: 1rem;
+}
+.login button{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient( rgb(142, 180, 216),rgb(145, 145, 173));
+}
+.signup{
+    text-align: center;
+}
+.login .icon i a{
+    color: var(--secondary);
+    font-size: 40px;
+    margin: 5px;
+}
+.login .icon i a:hover{
+    color: rgb(0, 60, 255);
+}
+/* Footer Section  */
+
+#foter-section {
+    background-color: var(--secondary);
+    color: rgba(255, 255, 255, 0.83);
+}
+
+#foter-section .row {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#foter-section p {
+    text-align: justify;
+}
+
+#foter-section a {
+    color: rgba(255, 255, 255, 0.792);
+    font-size: 31px;
+    margin: 5px 0px 0px 14px;
+}
+
+#foter-section a:hover {
+    color: rgb(91, 141, 248);
+}
+
+#foter-section h3 {
+    color: rgba(255, 255, 255, 0.822);
+    letter-spacing: 2px;
+}
+
+#foter-section li {
+    list-style: none;
+    margin: 5px 0px 0px -1.8rem;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#foter-section li:hover {
+    color: var(--hover);
+}
+
+@media (max-width: 426px) {
+    .trend img {
+        width: 170px;
+        height: 330px;
+    }
+
+}
