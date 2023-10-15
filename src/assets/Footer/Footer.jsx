@@ -17,19 +17,19 @@ export const Footer = () => {
             <div className="col-lg-2 p-5">
               <h3>Category</h3>
               <ul>
-                <li>Toys</li>
-                <li>Jewllerey</li>
-                <li>Bag</li>
-                <li>Beauty</li>
-                <li>Accessories</li>
+                <li><a href="/plastic" className='f-list'>Toy</a></li>
+                <li><a href="cetagory" className='f-list'>Jewllerey</a></li>
+                <li><a href="cetagory" className='f-list'>Bag</a></li>
+                <li><a href="cetagory" className='f-list'>Beauty</a></li>
+                <li><a href="cetagory" className='f-list'>Accessories</a></li>
               </ul>
             </div>
             <div className="col-lg-2 p-5">
               <h3>Information</h3>
               <ul>
-                <li>E-Shop</li>
-                <li>Contact</li>
-                <li>Register</li>
+                <li><a href="/" className='f-list'>E-Shop</a></li>
+                <li><a href="/contact" className='f-list'>Contact</a></li>
+                <li><a href="/login" className='f-list'>Register</a></li>
               </ul>
             </div>
             <div className="col-lg-4 p-5">

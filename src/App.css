@@ -477,8 +477,46 @@ h2{
     margin: 5px;
 }
 .login .icon i a:hover{
-    color: rgb(0, 60, 255);
+    color: black;
 }
+
+/* Contact Section  */
+
+.contact{
+    background-color: var(--body);
+}
+.contact .row .col-md-3{
+    text-align: center;
+}
+.contact .row img{
+    width: 80%;
+    height: 250px;
+    border-radius: 10px;
+    transition: all .7s ease-in-out;
+}
+.contact .row img:hover{
+    transition: all .7s ease-in-out;
+    transform: scale(1.1);
+}
+.contact .row h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--secondary);
+    margin: 2rem 6rem;
+}
+.contact .row i{
+    display: block;
+    font-size: 60px;
+    color: var(--secondary);
+}
+.contact .row strong{
+    color: var(--primary);
+    font-size: 25px; 
+}
+.contact .row p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
 /* Footer Section  */
 
 #foter-section {
@@ -502,7 +540,16 @@ h2{
 }
 
 #foter-section a:hover {
-    color: rgb(91, 141, 248);
+    color: var(--secondary);
+}
+#foter-section li .f-list{
+    font-size: 17px;
+    text-decoration: none;
+}
+#foter-section li .f-list:hover{
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
+    transition: all .3s ease-out;
 }
 
 #foter-section h3 {

@@ -17,14 +17,14 @@ export const Header = () => {
                             <li><a href="/cetagory">Jewllery</a></li>
                         </ul>
                     </li>
-                    <li><a href="/">Toys <IoMdArrowDropdown /></a>
+                    <li><a href="/plastic">Toys <IoMdArrowDropdown /></a>
                         <ul>
                             <li><a href="/plastic">Plastic</a></li>
                             <li><a href="/wood">Wooden</a></li>
                         </ul>
                     </li>
                     <li><a href="/soffer">Special Offer</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
                 <div className="h-icon">
                     {/* <i><a href="/login" ><AiOutlineSearch /></a></i> */}

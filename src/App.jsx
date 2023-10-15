@@ -10,6 +10,7 @@ import { Footer } from './assets/Footer/Footer'
 import { Soffer } from './assets/Special offer/Soffer'
 import { Cetagory } from './assets/category/Cetagory'
 import Login from './assets/Login'
+import Contact from './assets/contact/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
           <Route path='/wood' Component={ToyW}></Route>
           <Route path='/soffer' Component={Soffer}></Route>
           <Route path='/login' Component={Login}></Route>
+          <Route path='/contact' Component={Contact}></Route>
         </Routes>
         <Footer />
       </Router>
