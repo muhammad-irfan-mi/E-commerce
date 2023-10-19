@@ -17,13 +17,17 @@ const Login = () => {
                             <input type="text" id="u-nm" placeholder='Enter Username' />
                         </div>
                         <div className="uname">
-                            <label htmlFor="u-pass">Username</label><br />
+                            <label htmlFor="u-pass">Email Address</label><br />
+                            <input type="text" id="u-pass" placeholder='Enter Email Address'/>
+                        </div>
+                        <div className="uname">
+                            <label htmlFor="u-pass">Password</label><br />
                             <input type="text" id="u-pass" placeholder='Enter Password'/>
                         </div>
                         <div className="f-password">
                             <span>Forgot Password?</span>
                         </div>
-                        <button>Login</button>
+                        <a href="/"><button>Login</button></a>
                         <button>Signup</button>
                         <div className="signup">
                             <span>Or Signup using</span>
